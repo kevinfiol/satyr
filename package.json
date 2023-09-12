@@ -1,0 +1,34 @@
+{
+  "name": "satyr",
+  "version": "0.1.0-rc.0",
+  "author": "kevinfiol",
+  "license": "MIT",
+  "repository": "https://github.com/kevinfiol/satyr",
+  "type": "module",
+  "description": "A simple store utility",
+  "main": "dist/satyr.cjs",
+  "module": "dist/satyr.js",
+  "unpkg": "dist/satyr.min.js",
+  "types": "index.d.ts",
+  "umd:name": "satyr",
+  "scripts": {
+    "test": "node test.js",
+    "prepare": "bundt index.js && node test.js"
+  },
+  "engines": {
+    "node": ">=12.x"
+  },
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "devDependencies": {
+    "bundt": "1.1.5",
+    "flitch": "0.7.3"
+  },
+  "keywords": [
+    "vanillajs",
+    "store",
+    "state"
+  ]
+}
