@@ -21,7 +21,8 @@ count.sub(v => console.log(`Current count: ${v}`)); // logs `Current count: 11`
 
 // create computed stores
 const derived = computed(() => count.value * 100);
-console.log(derived.value); // 1100
+count.value = 5;
+console.log(derived.value); // 500
 ```
 
 ## Install
