@@ -1,6 +1,6 @@
 # satyr
 
-A tiny observable store utility. [vyce](https://github.com/kevinfiol/vyce), but using getter/setter properties.
+A [tiny](https://bundlejs.com/?q=satyr) observable store utility using getter/setter properties.
 
 ```js
 import { store, computed } from 'satyr';
